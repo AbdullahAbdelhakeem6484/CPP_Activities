@@ -30,7 +30,7 @@ git push origin username_dev
 
 4. **Merge Changes from Other Development Branches (if needed)**
 If you need to incorporate changes from another developer's branch, use:
-bash```
+```bash
 git checkout your_branch
 git merge username_dev
 ```
@@ -42,7 +42,7 @@ To simplify the process of creating your development branch, you can use the fol
 
 Bash Script: create_dev_branch.sh
 
-bash```
+```bash
 #!/bin/bash
 
 # Check if a username is provided
@@ -76,10 +76,10 @@ echo "Development branch '$BRANCH_NAME' created and pushed successfully!"
 Usage
 1. Save the script as create_dev_branch.sh.
 2. Make it executable:
-bash ```
+```bash
 chmod +x create_dev_branch.sh
 ```
 3.Run the script with your username:
-bash```
+```bash
 ./create_dev_branch.sh your_username
 ```
