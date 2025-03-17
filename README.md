@@ -18,13 +18,13 @@ Each developer should create their branch following this naming convention:
 2.  **Push Your Development Branch to Remote**
 Push your new branch to the remote repository:
 
-bash```
+```bash
 git push origin username_dev
 ```
    
 3.  **Push Your Development Branch to Remote**
 Push your new branch to the remote repository:
-bash```
+```bash
 git push origin username_dev
 ```
 
